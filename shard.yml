@@ -1,0 +1,13 @@
+name: wap
+version: 0.1.0
+
+authors:
+  - RHallberg <hallbergrickard@hotmail.com>
+
+targets:
+  wap:
+    main: src/wap.cr
+
+crystal: '>= 1.15.1'
+
+license: MIT
