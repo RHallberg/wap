@@ -1,27 +1,19 @@
 # wap
 
-TODO: Write a description here
+WAP, Weather At Present. 
+
+Meant to be used with SMHI's API to fetch weather information
 
 ## Installation
 
-TODO: Write installation instructions here
+Just do `crystal build --release src/wap.cr`
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/wap/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Provide the API url as well as the station id for the temperature and the station id for prognosis as input arguments. You can find the station ids on SMHIs website.
+`./wap opendata-download.example.com TEMP_STATION_ID PROGNOSIS_STATION_ID`
+. Create a new Pull Request
 
 ## Contributors
 
-- [RHallberg](https://github.com/your-github-user) - creator and maintainer
+- [Rickard Hallberg](https://github.com/RHallberg) - creator and maintainer
