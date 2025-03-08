@@ -2,9 +2,11 @@
 
 WAP, Weather At Present. 
 
-Meant to be used with SMHI's API to fetch weather information
+Meant to be used with SMHI's API to fetch weather information for display in terminal or in something like dwmblocks.
 
 ## Installation
+
+Dependencies: The crystal language
 
 Just do `crystal build --release src/wap.cr`
 
