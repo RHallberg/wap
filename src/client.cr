@@ -18,8 +18,8 @@ module Wap
       Response::Temperature.new response.body
     end
 
-    def get_prognosis
-      path = ""
+    def get_prognosis(station_id : String)
+      path = "/stream?type=metobs&parameterIds=13&stationId=#{station_id}&period=latest-hour"
       response = @client.get(path)
       return ERROR_TEXT unless response.success?
       Response::Prognosis.new response.body
