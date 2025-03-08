@@ -1,4 +1,3 @@
-# TODO: Write documentation for `Wap`
 require "./client"
 module Wap
   VERSION = "0.1.0"
