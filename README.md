@@ -13,8 +13,9 @@ Just do `crystal build --release src/wap.cr`
 ## Usage
 
 Provide the API url as well as the station id for the temperature and the station id for prognosis as input arguments. You can find the station ids on SMHIs website.
-`./wap opendata-download.example.com TEMP_STATION_ID PROGNOSIS_STATION_ID`
-. Create a new Pull Request
+```bash
+./wap opendata-download.example.com TEMPERATURE_STATION_ID PROGNOSIS_STATION_ID
+```
 
 ## Contributors
 
