@@ -1,6 +1,6 @@
 # wap
 
-WAP, Weather At Present. 
+WAP, Weather App. 
 
 Meant to be used with SMHI's API to fetch weather information for display in terminal or in something like dwmblocks.
 
